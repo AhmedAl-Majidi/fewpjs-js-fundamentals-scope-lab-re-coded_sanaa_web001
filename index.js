@@ -1,7 +1,7 @@
-let animal = "dog"
+let animal = "dog";
 
 function myAnimal() {
-  return animal
+  return animal;
 }
 
 function yourAnimal() {
@@ -9,14 +9,15 @@ function yourAnimal() {
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   let animal = 'cat';
-  return animal
+  return animal;
 }
 
 function add2(n) {
-  return n + two
+  const two = 2;
+  return n + two;
 
   // Feel free to move things around!
-  two = 2
 }
 myAnimal();
 yourAnimal();
+add2(2);
